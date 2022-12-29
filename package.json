@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "name": "@gbrogio/gbrogio-cli",
   "author": "Guilherme Brogio <guilhermebrogio.ps@gmail.com>",
   "description": "A cli to power up your code velocity.",
