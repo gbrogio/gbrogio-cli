@@ -27,7 +27,7 @@ export const messages = {
       description: `-> Improve your code velocity with this simple cli.\n-> Getting project template from (GITHUB).\n\n• Type "--init" or "-i" for initialize.\n• ${help}`,
       more_info: `${textInHexColor('gray', 'See more in')} ${textInHexColor(
         colors.primary,
-        'https://github.com/gbrogio/cli/readme',
+        'https://github.com/gbrogio/gbrogio-cli#readme',
       )}`,
     },
     config: {
