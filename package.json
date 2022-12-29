@@ -1,16 +1,17 @@
 {
   "license": "MIT",
   "version": "1.0.0",
-  "name": "gbrogio-cli",
+  "name": "@gbrogio/gbrogio-cli",
   "author": "Guilherme Brogio <guilhermebrogio.ps@gmail.com>",
   "description": "A cli to power up your code velocity.",
   "bin": {
-    "gbrogio": "./dist/main.js",
-    "brogio": "./dist/main.js",
-    "gbrg": "./dist/main.js"
+    "gbrogio": "dist/main.js",
+    "brogio": "dist/main.js",
+    "gbrg": "dist/main.js"
   },
   "scripts": {
-    "build": "tsc && tscpaths -p tsconfig.json -s ./src -o ./dist",
+    "build": "tsc --build",
+    "build:path": "tscpaths -p tsconfig.json -s ./src -o ./dist",
     "start": "./dist/main.js",
     "dev": "nodemon"
   },
@@ -46,5 +47,15 @@
     "tsconfig-paths": "^4.1.1",
     "tscpaths": "^0.0.9",
     "typescript": "^4.9.4"
-  }
+  },
+  "main": "dist/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbrogio/gbrogio-cli.git"
+  },
+  "types": "./dist/main.d.ts",
+  "bugs": {
+    "url": "https://github.com/gbrogio/gbrogio-cli/issues"
+  },
+  "homepage": "https://github.com/gbrogio/gbrogio-cli#readme"
 }

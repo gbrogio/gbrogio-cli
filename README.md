@@ -10,7 +10,7 @@
 Instale my-project com npm
 
 ```bash
-  npm i -g gbrogio-cli
+  npm i -g @gbrogio/gbrogio-cli
 ```
 
 ---
