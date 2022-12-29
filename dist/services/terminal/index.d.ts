@@ -1,0 +1,36 @@
+/// <reference types="node" />
+import shelljs from 'shelljs';
+export declare const terminal: {
+    cd(directory: string): void;
+    pwd(): shelljs.ShellString;
+    test(option: shelljs.TestOptions, path: string): boolean;
+    which(command: string): shelljs.ShellString | null;
+    exit(code?: number | undefined): never;
+    tempdir(): shelljs.ShellString;
+    error(): shelljs.ShellString;
+    set(options: string): void;
+    ls: shelljs.ListFunction;
+    find: shelljs.FindFunction;
+    cp: shelljs.CopyFunction;
+    rm: shelljs.RemoveFunction;
+    mv: shelljs.MoveFunction;
+    mkdir: shelljs.MkdirFunction;
+    cat: shelljs.CatFunction;
+    sed: shelljs.SedFunction;
+    grep: shelljs.GrepFunction;
+    echo: shelljs.EchoFunction;
+    pushd: shelljs.PushDirFunction;
+    popd: shelljs.PopDirFunction;
+    dirs: shelljs.DirsFunction;
+    ln: shelljs.LinkFunction;
+    env: NodeJS.ProcessEnv;
+    exec: shelljs.ExecFunction;
+    ShellString: shelljs.ShellStringConstructor;
+    chmod: shelljs.ChmodFunction;
+    touch: shelljs.TouchFunction;
+    head: shelljs.HeadFunction;
+    sort: shelljs.SortFunction;
+    tail: shelljs.TailFunction;
+    uniq: shelljs.UniqFunction;
+    config: shelljs.ShellConfig;
+};

@@ -1,0 +1,1 @@
+{"version":3,"file":"get-max-length-from-array.js","sourceRoot":"","sources":["../../src/utils/get-max-length-from-array.ts"],"names":[],"mappings":";;;AAAA,SAAgB,qBAAqB,CAAC,GAAa;IACjD,OAAO,GAAG,CAAC,MAAM,CAAC,UAAC,GAAG,EAAE,IAAI;QAC1B,OAAO,GAAG,GAAG,IAAI,CAAC,MAAM,CAAC,CAAC,CAAC,IAAI,CAAC,MAAM,CAAC,CAAC,CAAC,GAAG,CAAC;IAC/C,CAAC,EAAE,CAAC,QAAQ,CAAC,CAAC;AAChB,CAAC;AAJD,sDAIC"}
